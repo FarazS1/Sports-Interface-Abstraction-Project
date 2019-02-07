@@ -1,4 +1,4 @@
-public class Tennis implements Racket
+public class Concrete_Tennis implements Racket
 {
    
 }
