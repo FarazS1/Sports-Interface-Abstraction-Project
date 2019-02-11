@@ -1,4 +1,14 @@
 public abstract class Abstract_Turf<A, B, C> implements Sport<A, B, C>
 {
-
+    private A rules;
+    private B topPlayers;
+    
+    Abstract_Turf(A r, B tP){
+        rules = r;
+        topPlayers = tP;
+    }
+    
+    public void setRules(A r){rules = r;}
+    public void setTopPlayers(B tP){topPlayers = tP;}
+    
 }
