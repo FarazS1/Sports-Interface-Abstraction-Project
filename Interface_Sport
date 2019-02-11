@@ -1,4 +1,4 @@
-public interface Interface_Sport<A, B>
+public interface Interface_Sport<A, B, C>
 {
 public void setRules(A[] e);
 public void getRules();
