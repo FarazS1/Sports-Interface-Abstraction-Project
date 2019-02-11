@@ -1,4 +1,4 @@
-public interface Subinterface_Racket extends Sport
+public interface Subinterface_Racket<A, B, C> extends Sport<A, B, C>
 {
 
 }
