@@ -1,4 +1,4 @@
-public abstract class Abstract_Turf implements Sport
+public abstract class Abstract_Turf<A, B, C> implements Sport<A, B, C>
 {
-    
+
 }
