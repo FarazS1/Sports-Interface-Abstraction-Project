@@ -9,6 +9,7 @@ public abstract class Abstract_Turf<A, B, C> implements Sport<A, B, C>
     }
     
     public void setRules(A r){rules = r;}
+    public A getRules(){return this.rules;}
     public void setTopPlayers(B tP){topPlayers = tP;}
-    
+    public B getTopPlayers(){return this.toPlayers;}
 }
