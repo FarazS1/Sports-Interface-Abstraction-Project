@@ -1,0 +1,11 @@
+public class Runner_Yeet
+{
+     public static void main(String args[]){
+         Concrete_Soccer<String, String> s = new Concrete_Soccer<String, String>("test1", "test2", "test3");
+         System.out.println(s.getRules());
+         s.play(); 
+         
+         
+         
+        }
+}
