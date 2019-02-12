@@ -1,4 +1,4 @@
-public abstract class Abstract_Turf<A, B, C> implements Sport<A, B>
+public abstract class Abstract_Turf<A, B> implements Sport<A, B>
 {
     private A rules;
     private B equipment;
