@@ -1,4 +1,16 @@
-public class Concrete_Tennis extends Turf implements Racket
+public class Concrete_Tennis<A,B,C> implements Subinterface_Racket<A,B,C>
 {
+   private String court = "";
+   private String[] rules = {"These are the Rules"}
    
+   public Concrete_Tennis(String c){
+      court = c;
+   }
+   
+   public void play(){
+      System.out.println("30 - Love");
+   }
+   public void showCourt(){
+      System.out.println(court);
+   }
 }
