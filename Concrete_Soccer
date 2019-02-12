@@ -1,4 +1,14 @@
-public class Concrete_Soccer extends Turf
+public class Concrete_Soccer<A,B,C> extends Turf<A,B,C>
 {
+   private String turf = "";
+   private A rules;
    
+   public Soccer(A r, String t){
+      super(r);
+      turf = t;
+   }
+   
+   public void play(){
+      System.out.println("soccer");
+   }
 }
