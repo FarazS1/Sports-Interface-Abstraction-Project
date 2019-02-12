@@ -1,4 +1,4 @@
-public class Concrete_Soccer<A,B,C> extends Turf<A,B,C>
+public class Concrete_Soccer<A, B> extends Turf<A, B>
 {
    private String turf = "";
    private A rules;
