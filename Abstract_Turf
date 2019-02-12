@@ -1,9 +1,11 @@
-public abstract class Abstract_Turf<A, B, C> implements Sport<A, B, C>
+public abstract class Abstract_Turf<A, B, C> implements Sport<A, B>
 {
     private A rules;
+    private B equipment;
     
-    Abstract_Turf(A r){
+    Abstract_Turf(A r, B e){
         rules = r;
+        equipment = e;
     }
     
     public void setRules(A r){rules = r;}
