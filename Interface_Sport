@@ -1,8 +1,8 @@
 public interface Interface_Sport<A, B>
 {
-public void setRules(A e);
+public void setRules(A r);
 public A getRules();
-public void addEquipment(C g);
-public C getEquipment();
+public void addEquipment(B e);
+public B getEquipment();
 public void play();
 }
